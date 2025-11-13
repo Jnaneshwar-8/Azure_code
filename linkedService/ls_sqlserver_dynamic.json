@@ -1,0 +1,22 @@
+{
+	"name": "ls_sqlserver_dynamic",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Database": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-4F70K1N;initial catalog=@{linkedService().Database}",
+			"userName": "DESKTOP-4F70K1N\\praju",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzOGRmMDM3Ny0wMzNjLTRkYzktYTM1MC1kYmI2NGI4NWM2OTYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

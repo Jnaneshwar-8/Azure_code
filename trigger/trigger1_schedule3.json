@@ -1,0 +1,25 @@
+{
+	"name": "trigger1_schedule3",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_dynamic_meta",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2025-11-13T11:49:00",
+				"endTime": "2025-11-13T11:58:48",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
