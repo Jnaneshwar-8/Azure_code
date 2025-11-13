@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevenv0"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_adslinkservice_accountKey": {
+			"value": ""
+		},
+		"ls_sqlserver_dynamic_connectionString": {
+			"value": "integrated security=True;Data Source=DESKTOP-4F70K1N;Initial Catalog=@{linkedService().Database}"
+		},
+		"ls_sqlserver_dynamic_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sadevnenv.dfs.core.windows.net/"
+		},
+		"ls_adslinkservice_properties_typeProperties_url": {
+			"value": "https://sadevnenv.dfs.core.windows.net/"
+		},
+		"ls_sqlserver_dynamic_properties_typeProperties_userName": {
+			"value": "DESKTOP-4F70K1N\\praju"
+		}
+	}
+}
