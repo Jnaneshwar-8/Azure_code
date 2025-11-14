@@ -21,7 +21,7 @@
 				],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary1",
+						"referenceName": "ds_meta_input",
 						"type": "DatasetReference"
 					},
 					"logStorageSettings": {
