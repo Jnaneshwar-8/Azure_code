@@ -61,7 +61,7 @@
 								},
 								"cases": [
 									{
-										"value": "dd",
+										"value": "Emp",
 										"activities": [
 											{
 												"name": "Set variable1",
